@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="posts">
+        <h2>Blog Posts</h2>
+        <!-- Blog posts will be dynamically loaded here -->
+        <article>
+          <h3>The Future of Web Development</h3>
+          <img
+            src="images/web-development.jpeg"
+            alt="Web Development"
+            class="blog-image"
+          />
+          <p>
+            Web development is constantly evolving with new technologies and
+            frameworks. In this post, we will explore some of the latest trends
+            and what the future holds for web developers.
+          </p>
+          <p>
+            One of the most exciting developments is the rise of WebAssembly,
+            which allows developers to run high-performance code in the browser.
+            This opens up new possibilities for web applications, including
+            gaming, video editing, and more.
+          </p>
+          <p>
+            Another trend is the increasing popularity of static site generators
+            like Gatsby and Next.js. These tools allow developers to build fast,
+            secure, and scalable websites with ease.
+          </p>
+          <p>
+            Finally, we can't forget about the importance of web accessibility.
+            As the web becomes more integral to our daily lives, it's crucial
+            that we build websites that are accessible to everyone, regardless
+            of their abilities.
+          </p>
+          <p>Stay tuned for more updates on the latest in web development!</p>
+        </article>
+        <article>
+          <h3>Understanding JavaScript Frameworks</h3>
+          <img
+            src="images/javascript-framework.jpg"
+            alt="JavaScript Frameworks"
+            class="blog-image"
+          />
+          <p>
+            JavaScript frameworks have become an essential part of modern web
+            development. In this post, we will discuss some of the most popular
+            frameworks and their use cases.
+          </p>
+          <p>
+            React, developed by Facebook, is known for its component-based
+            architecture and is widely used for building user interfaces.
+          </p>
+          <p>
+            Angular, maintained by Google, is a comprehensive framework that
+            provides a robust solution for building large-scale applications.
+          </p>
+          <p>
+            Vue.js is a progressive framework that is easy to integrate with
+            other projects and libraries, making it a popular choice for
+            developers.
+          </p>
+          <p>
+            Each of these frameworks has its strengths and weaknesses, and the
+            choice of framework often depends on the specific needs of the
+            project.
+          </p>
+        </article>
+        <article>
+          <h3>CSS Grid vs. Flexbox: Which One to Use?</h3>
+          <img
+            src="images/css-grid-flexbox.jpg"
+            alt="CSS Grid vs. Flexbox"
+            class="blog-image"
+          />
+          <p>
+            CSS Grid and Flexbox are two powerful layout systems in CSS. In this
+            post, we will compare them and discuss when to use each one.
+          </p>
+          <p>
+            CSS Grid is a two-dimensional layout system that allows you to
+            create complex layouts with rows and columns. It is ideal for
+            creating grid-based designs.
+          </p>
+          <p>
+            Flexbox is a one-dimensional layout system that is perfect for
+            distributing space along a single axis. It is great for creating
+            flexible and responsive layouts.
+          </p>
+          <p>
+            Both CSS Grid and Flexbox have their unique features and can be used
+            together to create versatile and responsive web designs.
+          </p>
+        </article>
+      </section>
+      <section id="comments-section">
+        <h2>Comments</h2>
+        <form id="comment-form">
+          <label for="comment-input">Add a comment:</label>
+          <input type="text" id="comment-input" required />
+          <button type="submit">Submit</button>
+        </form>
+        <ul id="comments"></ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
