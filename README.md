@@ -42,9 +42,17 @@ To get a local copy up and running, follow these simple steps:
 - Dynamic loading of blog posts (to be implemented in `scripts.js`).
 - Simple and clean layout for easy reading.
 
-## Contributing
+## Contributing 💡
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+Pull request are welcome but please open an issue and discuss what you will do before 😊
+
+## Author ✒️
+
+**Ashish Sunil Thomas**
+
+## Like this project? 💖
+
+Give a ⭐️ if you like this project!
 
 ## License
 
